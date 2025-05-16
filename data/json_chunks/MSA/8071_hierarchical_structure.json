@@ -1,0 +1,236 @@
+[
+  {
+    "section_path": [
+      "1 Scope"
+    ],
+    "text": "This specification defines the terminology and physical requirements for the mating \ninterface and physical characteristics of the 0.8 mm card edge connector to support \nmulti gigabit applications.  The dimensions specified apply to connectors with 20 \ncontacts.  \n \nThe using interfaces define requirements on the characteristic impedance and \nability to transmit multi-gigabit signals to and from optical pluggable modules, \nand in some cases via cable assemblies. When this connector is used in such an \napplication, it is subject to the requirements of those documents.",
+    "hierarchy": [
+      "1"
+    ],
+    "depth": 1,
+    "section_code": "1"
+  },
+  {
+    "section_path": [
+      "2 References"
+    ],
+    "text": "The SFF Committee activities support the requirements of the storage industry, and \nit is involved with several standards.",
+    "hierarchy": [
+      "2"
+    ],
+    "depth": 1,
+    "section_code": "2"
+  },
+  {
+    "section_path": [
+      "2.1 Industry Documents"
+    ],
+    "text": "The following standards and specifications are relevant to this Specification. \n \n  ANSI/ASME Y14.5M Geometric Dimensioning and Tolerancing (GD&T) \n  EIA 364-06       Contact Resistance Test Procedure For Electrical Connectors \n  EIA 364-09       Durability Test Procedure For Electrical Connectors And Contacts \n  EIA 364-13       Mating And Unmating Forces Test Procedures For Electrical  \n                   Connectors \n  EIA 364-21       Insulation Resistance Test Procedure For Electrical Connectors  \n                   Sockets And Coaxial Contacts \n  ANSI 352:2002    FC-PI   (Fibre Channel Physical Interface) \n  ANSI 404:2006    FC-PI-2 (Fibre Channel Physical Interface 2) / T11/1506D \n  INF-8074i        SFP (Small Formfactor Pluggable) 1 Gb/s Transceiver \n  SFF-8075         SFP Cage 10 Gb/s 2X: PCI Card Version \n  SFF-8081         SFP+ 16 Gb/s 1X Pluggable Transceiver Solution (SFP16) \n  SFF-8083         SFP+ 10 Gb/s 1X Pluggable Transceiver Solution (SFP10) \n  SFF-8084         SFP+  4 Gb/s 1X Pluggable Transceiver Solution \n  SFF-8402         SFP+ 28 Gb/s 1X Pluggable Transceiver Solution (SFP28) \n  SFF-8410         HSS Copper Testing and Performance Requirements \n  SFF-8418         SFP+ High Speed Electrical Interface \n  SFF-8419         SFP+ Low Speed Electrical Interface \n  SFF-8432         SFP+ Module and Cage \n  SFF-8433         SFP+ Ganged Cage",
+    "hierarchy": [
+      "2",
+      "1"
+    ],
+    "depth": 2,
+    "section_code": "2.1"
+  },
+  {
+    "section_path": [
+      "2.2 SFF Specifications"
+    ],
+    "text": "There are several projects active within the SFF Committee. The complete list of \nspecifications which have been completed or are still being worked on are listed in \nthe specification at ftp://ftp.seagate.com/sff/SFF-8000.TXT",
+    "hierarchy": [
+      "2",
+      "2"
+    ],
+    "depth": 2,
+    "section_code": "2.2"
+  },
+  {
+    "section_path": [
+      "2.3 Sources"
+    ],
+    "text": "Those who join the SFF Committee as an Observer or Member receive electronic copies \nof the minutes and SFF specifications (http://www.sffcommittee.com/ie/join.html). \n \nCopies of ANSI standards may be purchased from the InterNational Committee for \nInformation Technology Standards (http://tinyurl.com/c4psg). \n \nEIA documents are available at http://global.ihs.com \n\n--- End of Page 6 ---\n\n Published                                                        SFF-8071 Rev 1.7 \n \n \nSFP+ 1X 0.8mm Card Edge Connector                                           Page 7",
+    "hierarchy": [
+      "2",
+      "3"
+    ],
+    "depth": 2,
+    "section_code": "2.3"
+  },
+  {
+    "section_path": [
+      "2.4 Conventions"
+    ],
+    "text": "The ISO convention of numbering is used i.e., the thousands and higher multiples \nare separated by a space and a period is used as the decimal point. This is \nequivalent to the English/American convention of a comma and a period. \n \nAmerican \nFrench \nISO \n         0.6 \n        0,6 \n        0.6 \n     1,000 \n    1 000 \n    1 000 \n 1,323,462.9 \n1 323 462,9 \n1 323 462.9",
+    "hierarchy": [
+      "2",
+      "4"
+    ],
+    "depth": 2,
+    "section_code": "2.4"
+  },
+  {
+    "section_path": [
+      "2.5 Definitions"
+    ],
+    "text": "For the purpose of this specification, the following definitions apply: \n \nAdvanced grounding contacts:  Connector contacts that make first and break last and \nare capable of carrying power ground return currents and performing electrostatic \ndischarge.  Other terms sometimes used to describe these features are: grounding \npins, ESD contacts, grounding contacts, static drain, and pre-grounding contacts. \n \nAlignment guides:  Connector features that preposition insulators prior to \nelectrical contact.  Other terms sometimes used to describe these features are: \nguide pins, guide posts, blind mating features, mating features, alignment \nfeatures, paddle card chamfers and mating guides. \n \nCenterline or CL:  A real or imaginary line that is equidistant from the surface or \nsides of something \n \nContact mating sequence:  Order of electrical contact during mating/unmating \nprocess.  Other terms sometimes used to describe this feature are: contact \nsequencing, contact positioning, make first/break last, EMLB (early make late \nbreak) staggered contacts, and long pin / short pin. \n \nFrontshell:  That metallic part of a connector body that directly contacts the \nbackshell or other shielding material that provides mechanical and shielding \ncontinuity between the connector and the cable.  Other terms sometimes used to \ndescribe this part of a cable assembly are: housing, nosepiece, cowling, and metal \nshroud.  \n \nMaximum component height:  Distance from board surface to farthest overall \nmodule/connector feature. \n \nMating side:  The side of the connector that joins and separates from the mating \nside of a connector of opposite gender.  Other terms commonly used in the industry \nare mating interface, separable interface and mating face. \n \nOffset:  An alignment shift from the centerline of the connector. Connector \ncontacts may be offset from the CL \n \nOptional:  This term describes features that are not required by this \nspecification. However, if any feature defined by this specification is \nimplemented, it shall be done in the same way as defined by the specification. \nDescribing a feature as optional in the text is done to assist the reader. If there \nis a conflict between text and tables on a feature described as optional, the table \nshall be accepted as being correct.  \n \nRight Angle:  A connector design for use with printed circuit board assembly \ntechnology where the mating direction is parallel to the plane of the printed \ncircuit board. \n\n--- End of Page 7 ---\n\n Published                                                        SFF-8071 Rev 1.7 \n \n \nSFP+ 1X 0.8mm Card Edge Connector                                           Page 8  \n \nSurface mount:  A connector design and a printed circuit board design style where \nthe connector termination points do not penetrate the printed circuit board and are \nsubsequently soldered to the surface of the printed circuit board. \n \nTermination side:  The side of the connector opposite the mating side that is used \nfor permanently attaching conductors to the connector.  Due to pin numbering \ndifferences between mating side genders the termination side shall always be \nspecified in conjunction with a mating side of a specific gender.  Other terms \ncommonly used in the industry are: back end, non-mating side, footprint, pc board \nside, and post side. \n \nThrough-hole:  A connector design and a printed circuit board design style where \nthe connector termination points penetrates the printed circuit board and are \nsubsequently soldered to the printed circuit board.",
+    "hierarchy": [
+      "2",
+      "5"
+    ],
+    "depth": 2,
+    "section_code": "2.5"
+  },
+  {
+    "section_path": [
+      "2.6 Abbreviations"
+    ],
+    "text": "CL: \nCenterline  \nMSA: Multiple Source Agreement  \nPCB: Printed Circuit Board  \nSFP: Small Formfactor Pluggable \nSMT: Surface-mount technology  \n \n \n \n\n--- End of Page 8 ---\n\n Published                                                        SFF-8071 Rev 1.7 \n \n \nSFP+ 1X 0.8mm Card Edge Connector                                           Page 9",
+    "hierarchy": [
+      "2",
+      "6"
+    ],
+    "depth": 2,
+    "section_code": "2.6"
+  },
+  {
+    "section_path": [
+      "3 General Description"
+    ],
+    "text": "The 0.8 mm connection system is based on industry-proven card edge style contacts, \nwhich mate with a single wipe. \n\n0.8 mm Card Edge connectors find their most important application where signals\nhave rise times typically in the range of 25 ps and where positive retention is \nneeded but ease of insertion and removal is also desired. This covers virtually all \nof the external inter-enclosure applications for gigabit serial applications that \nuse balanced copper media for transmission. \n \nDesign goals were minimization of crosstalk and minimum transmission line impedance \ndiscontinuity across the connector interface at the specified signaling rates on \nthe upper row of contacts. The lower row of contacts is rated at signaling rates up \nto 2.5 Gb/s. \n \nThe shield (cage) contact (not shown or part of this specification) is required to \nmake contact before any of the signal contacts upon insertion and to break contact \nonly after all contacts are separated upon removal. This ensures that any ground \npotential differences between enclosures are first exposed to the shield and \nthereby minimizes the risk of damaging the sensitive input and output stages of the \ntransceivers when the signal contacts are mated. \n \nA cage or latching device (not shown or part of this specification) is required to \nguide the mating interface (paddle card) into the connector, provide sufficient \nwipe on the contact interface, provide a hard stop which prevents the transceiver \nside from bottoming in the connector, and keeps the paddle card contacts on the \nconnector contacts during use. \n \nThis connector is mated with either a pluggable module or a direct attach cable \nassembly. \n \nThis specification includes the minimum lengths, widths and positional tolerances \nof the contacts.  \n \n \n \n\n--- End of Page 9 ---\n\n Published                                                        SFF-8071 Rev 1.7 \n \n \nSFP+ 1X 0.8mm Card Edge Connector                                           Page 10",
+    "hierarchy": [
+      "3"
+    ],
+    "depth": 1,
+    "section_code": "3"
+  },
+  {
+    "section_path": [
+      "4 Mechanical Specifications"
+    ],
+    "text": "",
+    "hierarchy": [
+      "4"
+    ],
+    "depth": 1,
+    "section_code": "4"
+  },
+  {
+    "section_path": [
+      "4.1 Connector Configurations"
+    ],
+    "text": "The 0.8mm card edge connector relies on a receiving body and paddle card, which are \nthe primary elements of a connector used for the application.  \n \nThe primary elements provide a flexible means to implement solutions for diverse \napplications e.g., direct board-to-board implementations can incorporate the plug \ninto the side of one board and mate directly to a receiving body on the other.  \n \nThe figure is an example which illustrates one style of receiving body and how they \nbecome receptacles to receive the plug when encapsulated by the shell that is \ndesigned for an unshielded connector application.   \n \n \n \n \nFIGURE 4-1 GENERAL VIEW OF RIGHT-ANGLED BODY RECEPTACLE \n \nThe cage provides guidance and retention for the cable plug or pluggable module, \nand absorbs the stress imposed by insertion and removal of the plug or module. This \nprotects the quality of the solder joints between the body and host board. \n \n \n\n--- End of Page 10 ---\n\n Published                                                        SFF-8071 Rev 1.7 \n \n \nSFP+ 1X 0.8mm Card Edge Connector                                           Page 11",
+    "hierarchy": [
+      "4",
+      "1"
+    ],
+    "depth": 2,
+    "section_code": "4.1"
+  },
+  {
+    "section_path": [
+      "4.2  Contact Sequencing"
+    ],
+    "text": "To combat electrostatic discharge, static drain, protect signal pins, or for other \npurposes, it may be desirable that during module/cable insertion some contacts make \ncontact first and that during extraction these contacts break last. This function \ncan be achieved with contact sequencing. Figure 4-2 shows an example where first \nthe advanced grounding contacts make contact with the board side contacts and then \nthe power contacts make contact and that the signal pins make contact after ground \nand power has been established. During extraction the reverse process happens. For \ndetails on the sequencing dimensions see Figure 5-1. \n \n \n \nFIGURE 4-2 CONTACT SEQUENCING \n \n\n--- End of Page 11 ---\n\n Published                                                        SFF-8071 Rev 1.7 \n \n \nSFP+ 1X 0.8mm Card Edge Connector                                           Page 12",
+    "hierarchy": [
+      "4",
+      "2"
+    ],
+    "depth": 2,
+    "section_code": "4.2"
+  },
+  {
+    "section_path": [
+      "6.4   Contact Numbering"
+    ],
+    "text": "The contact numbering is shown in the table. For location of contacts A01 and B01, \nsee Figure 5-1 and Figure 5-2. \n  \nTABLE 4-1 CONTACT NUMBERING \nContacts \n1 \n20 \n2 \n19 \n3 \n18 \n4 \n17 \n5 \n16 \n6 \n15 \n7 \n14 \n8 \n13 \n9 \n12 \n10 \n11",
+    "hierarchy": [
+      "6",
+      "4"
+    ],
+    "depth": 2,
+    "section_code": "6.4"
+  },
+  {
+    "section_path": [
+      "5 Connector Dimensions"
+    ],
+    "text": "The dimensioning conventions are described in ANSI-Y14.5M, Geometric Dimensioning \nand Tolerancing. All dimensions are in millimeters.  \n \nDimension related requirements for the connector system addressed in this document \nare specified in the tables and figures in this clause. \n \n\n--- End of Page 12 ---\n\n Published                                                        SFF-8071 Rev 1.7 \n \n \nSFP+ 1X 0.8mm Card Edge Connector                                           Page 13",
+    "hierarchy": [
+      "5"
+    ],
+    "depth": 1,
+    "section_code": "5"
+  },
+  {
+    "section_path": [
+      "5.1 Paddle Card"
+    ],
+    "text": "Note: No solder mask within 0.05mm of the defined pad locations. \nFIGURE 5-1 PADDLE CARD \n \n \n\n--- End of Page 13 ---\n\n Published                                                        SFF-8071 Rev 1.7 \n \n \nSFP+ 1X 0.8mm Card Edge Connector                                           Page 14  \n \nTABLE 5-1 PADDLE CARD DIMENSIONS \nDesignator \nDescription \nmm \nTolerance \nA01 \nCL to last \n3.80 \nBasic \nA02 \nCL to first \n3.40 \nBasic \nA03 \nContact pad pitch within row \n0.80 \nBasic \nA04 \nPad width \n0.60 \n+/-0.05 \nA05 \nPaddle card width \n9.20 \n+/-0.10 \nA06 \nEnd of paddle card to datum D \n1.30 \n+/-0.10 \nA07 \nStart of ground pad to datum D \n0.80 \n+/-0.05 \nA08 \nStart of power pad to datum D \n0.40 \n+/-0.05 \nA09 \nLength of signal pad \n2.20 \nMinimum \nA10 \nLength of component/Solder Mask \nkeep-out area \n5.50 \nMinimum \nA11 \nPaddle card thickness \n1.00 \n+/-0.10 \nA12 \nPaddle card end chamfer \n0.30 \n+0.10/-0.20 \nA13 \nPaddle card end chamfer angle \n45 degrees \nReference \nA14 \nLength from front edge to shoulder \n6.00 \nMinimum \n \n\n--- End of Page 14 ---\n\n Published                                                        SFF-8071 Rev 1.7 \n \n \nSFP+ 1X 0.8mm Card Edge Connector                                           Page 15",
+    "hierarchy": [
+      "5",
+      "1"
+    ],
+    "depth": 2,
+    "section_code": "5.1"
+  },
+  {
+    "section_path": [
+      "5.2 Board Side Connector"
+    ],
+    "text": "FIGURE 5-2 BOARD SIDE CONNECTOR \n \n \n\n--- End of Page 15 ---\n\n Published                                                        SFF-8071 Rev 1.7 \n \n \nSFP+ 1X 0.8mm Card Edge Connector                                           Page 16  \n \nTABLE 5-2 BOARD SIDE CONNECTOR DIMENSIONS \nDesignator \nDescription \nmm \nTolerance \nA01 \nCL to last \n3.80 \nBasic \nA02 \nCL to first \n3.40 \nBasic \nA03 \nContact pitch within row \n0.80 \nBasic \nB01 \nOverall width \n11.20 \nMaximum \nB02 \nOverall depth \n9.20 \nMaximum \nB03 \nPaddle card slot width \n9.40 \n+/-0.05 \nB04 \nContact tolerance zone \n0.33 \nMaximum \nB05 \nPaddle card slot height \n1.35 \nMaximum \nB06 \nPaddle card slot to datum F \n2.75 \n+/-0.15 \nB07 \nContact pitch row to row \n0.40 \nBasic \nB08 \nPeg to peg \n9.60 \nBasic \nB09 \nPeg height \n1.40 \n+/-0.05 \nB10 \nPeg width \n0.90 \nReference \nB11 \nPeg diameter \n1.40 \n+/-0.05 \nB12 \nHousing Front to contact CL \n3.95 \nMaximum \nB13 \nOverall height \n5.40 \nMaximum \nB14 \nPeg CL to solder foot \n4.65 \nReference \nB15 \nPeg CL to card slot \n2.20 \nMinimum \nB16 \nPeg CL to contact CL \n0.70 \n+/-0.25 \n \n\n--- End of Page 16 ---\n\n Published                                                        SFF-8071 Rev 1.7 \n \n \nSFP+ 1X 0.8mm Card Edge Connector                                           Page 17",
+    "hierarchy": [
+      "5",
+      "2"
+    ],
+    "depth": 2,
+    "section_code": "5.2"
+  },
+  {
+    "section_path": [
+      "5.3 Board Side Connector Footprints"
+    ],
+    "text": "Note 2: Datums and Basic dimensions to be established by the board designer. \nFIGURE 5-3 BOARD SIDE CONNECTOR FOOTPRINT \n \n\n--- End of Page 17 ---\n\n Published                                                        SFF-8071 Rev 1.7 \n \n \nSFP+ 1X 0.8mm Card Edge Connector                                           Page 18  \n \nNote 2: Datums and Basic dimensions to be established by the board designer. \nFIGURE 5-4 ALTERNATE BOARD SIDE CONNECTOR FOOTPRINT \n \n \n \n \n\n--- End of Page 18 ---\n\n Published                                                        SFF-8071 Rev 1.7 \n \n \nSFP+ 1X 0.8mm Card Edge Connector                                           Page 19  \nTABLE 5-3 FOOTPRINT DIMENSIONS \nDesignator \nDescription \nmm \nTolerance \nA03 \nContact pitch within row \n0.80 \nBasic \nB07 \nContact pitch row to row \n0.40 \nBasic \nB08 \nPeg to peg \n9.60 \nBasic \nC01 \nLocator peg hole diameter \n1.55 \n+/-0.05 \nC02 \nPad width \n0.50 \n+/-0.03 \nC03 \nPad length \n2.00 \n+/-0.05 \nC04 \nPeg hole CL to pad CL \n4.10 \nBasic \nC05 \nLocator peg hole CL to pad CL \n1.40 \nReference \nC06 \nLocator peg hole CL to pad CL \n1.00 \nBasic \nC07 \nPad CL to pad CL within row \n7.20 \nBasic \nC08 \nDatum L to locator peg hole CL \nSee Note 2 \nBasic \nC09 \nDatum K to locator peg Hole CL \nSee Note 2 \nBasic \nC10 \nRow CL to row CL \n8.20 \nBasic \nC11 \nHigh speed signal pad width \n0.35 \n+/-0.03 \nC12 \nHigh speed signal pad length \n1.40 \n+/-0.05",
+    "hierarchy": [
+      "5",
+      "3"
+    ],
+    "depth": 2,
+    "section_code": "5.3"
+  },
+  {
+    "section_path": [
+      "6 Performance Requirements"
+    ],
+    "text": "",
+    "hierarchy": [
+      "6"
+    ],
+    "depth": 1,
+    "section_code": "6"
+  },
+  {
+    "section_path": [
+      "6.1 Test Sequences"
+    ],
+    "text": "This specification conforms to the test sequences as defined in EIA-364 TS-1000. \n \nTABLE 6-1 TS-1000 REQUIREMENTS \nDescription \nRequirement \nRated Durability Cycles \n250 \nField Life (3, 5, 7, or 10 years) \n10 year \nField Temperature (57, 60, 65, 75, or 85C) \n65C degrees \nTest Group 4 Option \n1B \nPlating Type (Precious / non-Precious) \nPrecious \nSurface Treatment (Lubricated or non-\nLubricated) \nManufacturer to specify \n \n \nTABLE 6-2 ELECTRICAL REQUIREMENTS \nDescription \nRequirement \nProcedure \nCurrent \n0.5 A per contact \nVoltage \n30 VDC per contact \n  \nLow Level Contact \nResistance \nBaseline \nEIA 364-23 \n20 mVDC, 10 mA \nInsulation Resistance \n1000 Megaohms minimum between \nadjacent contacts \n100 VDC \nDielectric Withstanding \nVoltage \nNo defect or breakdown between \nadjacent contacts \n300 VDC minimum \nfor 1 minute \n \n \n \n \n \n \n \n \n \n \n \n\n--- End of Page 19 ---\n\n Published                                                        SFF-8071 Rev 1.7 \n \n \nSFP+ 1X 0.8mm Card Edge Connector                                           Page 20  \n \nTABLE 6-3 MECHANICAL REQUIREMENTS \nFrom SFF-8084 \nItems \nConditions \nAcceptance \nLimits \nUnit \nDurability for \nConnector \nEIA 364-09 \nDurability cycles are in Table 6-1, but \nthe number is 250, not 100 \n100 Cycles \nDurability for \nMating Paddle Card \nEIA 364-09 \nTable 6-1 has no spec for the paddle card \n50 \nCycles \nMating Force \nEIA 364-13:  Measurement speed: 12.7 mm \nper minute maximum  \nSame procedure but values differ \n30 Max \nN \nUn-mating Force \nEIA 364-13:  Measurement speed: 12.7 mm \nper minute maximum with retention latch \ndisengaged \nSame procedure but values differ \n20 Max \nN \n \nFrom common requirements used by SFF-8639, 8680 et el  \nDescription \nRequirement \nProcedure \nMating Force \n150N maximum \nEIA 364-13 \nUn-mating Force \n50N maximum \nEIA 364-13 \nVibration \n- No Damage \n- No discontinuity longer than 1 \nmicrosecond allowed. \n- 20 milliohms maximum change from \ninitial (baseline) contact \nresistance \nEIA 364-28 \nMechanical Shock \n- No Damage \n- 20 milliohms maximum change from \ninitial (baseline) contact \nresistance \nEIA 364-27 \n \nTABLE 6-4 ENVIRONMENTAL REQUIREMENTS \nDescription \nRequirement \n \nStorage Temperature \n-20C to +85C degrees \n \nHumidity \n80 percent Relative Humidity \n \n \n\n--- End of Page 20 ---\n\n Published                                                        SFF-8071 Rev 1.7 \n \n \nSFP+ 1X 0.8mm Card Edge Connector                                           Page 21",
+    "hierarchy": [
+      "6",
+      "1"
+    ],
+    "depth": 2,
+    "section_code": "6.1"
+  },
+  {
+    "section_path": [
+      "6.2 High Frequency Performance Requirements"
+    ],
+    "text": "For better performance it is recommended that grounds are cleared from underneath \nsignal pads.  \n \n \nHost Board Side Footprint \nDe-embedding reference \nplane at end of contact \npads as defined in Figure \n5-3 and Figure 5-4. \n \nPaddle Card Side Contact \nDe-embedding reference plane \nat end of contact pads as \ndefined in Figure 5-1. \nFIGURE 6-1 DE-EMBEDDING REFERENCE PLANE \n \n \n\n--- End of Page 21 ---",
+    "hierarchy": [
+      "6",
+      "2"
+    ],
+    "depth": 2,
+    "section_code": "6.2"
+  }
+]
